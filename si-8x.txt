@@ -1,0 +1,36 @@
+# Stunt Island at 800% detail
+
+(aka “Ace got glasses”)
+
+This is a mod for Stunt Island, creating a copy of the game where the engine
+works as if the detail level were set at 800%. The “Detail” slider in the
+preferences is ignored; all other preferences work as normal.
+
+Version 1.0 (11.11.2024). Made by Alberto.
+
+## To use
+
+* Copy `si-8x` (Linux) or `si-8x.exe` (Windows) into your Stunt Island
+  directory (where STUNT.EXE and MAKEONE.EXE are located).
+* Launch it.
+* The files STUNTS1.EXE, MAKEONE1.EXE and PLAYONE1.EXE should appear.
+
+Alternatively, you can start the program from a terminal, in which case you can
+provide the location of your Stunt Island directory as parameter.
+
+## Supported versions
+
+You can check whether your version is supported by looking at the size of
+STUNTS.EXE. The mod supports currently these versions:
+
+* 137240 Bytes (GOG version; the one by Steam should be identical)
+* 134784 Bytes (created by the “P3 - Final Patch Set” provided by
+                www.planetmic.com/stunt)
+
+## Legal notes
+
+Stunt Island is (C) Disney Software.
+
+This file is available without liability or warranty of any kind, and is
+presented "as is".
+
