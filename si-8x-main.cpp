@@ -107,13 +107,13 @@ int main(int argc, char** argv)
         {
             std::cout << "Found version: " << candidate_patchset.description << "\n";
             for (size_t i = 0; i < stunt_buffer.size(); ++i) {
-                stunt_buffer[i] ^= diff_stunt_v0_bin[i];
+                stunt_buffer[i] ^= candidate_patchset.stunt_diff[i];
             }
             for (size_t i = 0; i < makeone_buffer.size(); ++i) {
-                makeone_buffer[i] ^= diff_makeone_v0_bin[i];
+                makeone_buffer[i] ^= candidate_patchset.makeone_diff[i];
             }
             for (size_t i = 0; i < playone_buffer.size(); ++i) {
-                playone_buffer[i] ^= diff_playone_v0_bin[i];
+                playone_buffer[i] ^= candidate_patchset.playone_diff[i];
             }
 
             std::cout << "Writing STUNT1.EXE, MAKEONE1.EXE and PLAYONE1.EXE with 8x detail\n";
